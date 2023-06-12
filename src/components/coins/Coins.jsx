@@ -1,5 +1,6 @@
-import React from 'react'
-import Coinitem from './Coinitem'
+import React from 'react';
+import Coinitem from './Coinitem';
+import "./coins.css";
 
 const Coins = (props) => {
   return (
@@ -16,7 +17,7 @@ const Coins = (props) => {
 
             {props.coins.map(coins => {
                 return (
-                    <Coinitem coins={coins}/>
+                    <Coinitem coins={coins} id={coins.id}/>
                 )
             })}
         </div>
@@ -24,4 +25,4 @@ const Coins = (props) => {
   )
 }
 
-export default Coins
+export default Coins;

@@ -16,4 +16,4 @@ const Coinitem = (props) => {
   )
 }
 
-export default Coinitem
+export default Coinitem;
