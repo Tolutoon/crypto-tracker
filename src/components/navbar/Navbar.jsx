@@ -1,6 +1,7 @@
 import React from 'react';
 import './navbar.css';
 import { FaCoins } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   return (
